@@ -1,7 +1,7 @@
 forge b --skip test script --build-info
 
 forge script script/deploy.local.s.sol:Local \
-    --rpc-url http://127.0.0.1:8545 \
+    --rpc-url https://opt-sepolia.g.alchemy.com/v2/5ogeTPhI1zKHgaKCzi5kZDJ5585EnMxS \
     --build-info \
     --broadcast \
     --verbosity
